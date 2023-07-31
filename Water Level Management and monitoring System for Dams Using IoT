@@ -1,0 +1,239 @@
+WATER LEVEL MONITORING AND MANAGEMENT SYSTEM USING IoT
+ 
+                                                                                        
+
+
+
+
+
+
+
+
+ Niti Rani Rai ,EEE Department
+IIIT Bhubneswar
+Bhubneswar 751003, Odisha
+nitiranirai@gmail.com
+ 
+Abstract—A crucial necessity exists to shield the safety of dams, as the past civilization, customs, and sustainable environment of India and its citizens are complexly connected to the facilities, potential benefits, and water resources available from dams. The water resources we get from the dams are used for agricultural purposes, hydropower plants, and industries. Therefore, This paper represents need to manage the water levels efficiently to defend it from natural or human threats. Therefore, the construction of an information system based on current systems with the use of some sensors and IoT is outlined in this study. The IoT is one of the fastest-growing technologies and it relies on embedded systems to transmit and receive information over a specified network in real-time. Due to the current floodgate management system, uncontrolled water levels might result in a reservoir overflow because the floodgate supervisor has no prior warnings or information regarding water levels. So therefore, this prototype is designed in a way that allows real-time management and monitoring of water levels. The decision on whether to release the water by opening the dam gates or keep them locked is made by the authorized central command center. By doing this, the management of the nation's dams is centralized and automated.
+
+Keywords—Water level management, Internet of Things(IoT),dams ,Authorized handler
+I.	INTRODUCTION 
+A dam is a structure that is constructed across rivers or streams. The primary function of dams is to promote water conservation. Since they have been around for many millennia, water dams are not a new idea. Dams have been in existence for a very long time from now due to which the civilizations over the years can channel water through towns and agricultural areas. Most dams are multi-purpose and are built to serve more the one purpose. Purposes of dams for domestic water supply include everyday activities such as water for drinking, irrigation, cooking, bathing, washing, and lawn and garden watering. To assist in controlling the intricate systems of hydroelectric power plants, some form of communication between metering systems and computer models must be implemented.
+The majority of the time, traditional surveillance methods and water management are used to keep an eye on the dams, with the exception of certain automated water level monitoring. Because there are so many people who rely on dams and because some of them may have competing interests, managing water supplies through dams becomes complicated. Monitoring the dams is a monotonous and long-term process that needs to be updated with a  new system. Dam water monitoring and management should be set up so that real-time water level information will be available and make timely decisions on the safety of the dams' operations.
+
+The Internet of Things (IoT) can be referred to as an interconnected network of devices having a web interface that has been built in real-time so that the public may watch the system. It allows the end users for the data interchange between the users and the connected device and enables the users to acquire accurate data from time to time through the communication channel with the help of a set of sensors, a communication network as well as software-enabled electronic devices.
+During the time of water scarcity, this can also be used to gather information on the level of water throughout the country and route it as our requirement. This also helps in irrigation also. It also enables the automation of the control of dams without human interference. It provides an important measure to ensure the safety of dams from time to time. The use of a Wireless sensors network with software for dam safety management helps in improving the functionality of dams. The water level, vibrations on the dam's wall, and pressure imposed on the dam's wall from the dam into the main pipeline may all be detected by the sensors in the cluster of the dam in liters per minute respectively.
+To sense the pressure difference caused by breaking or leakage of the pipeline sensors for differential pressure are fitted at equal spaces along the main pipeline and will be informed to the observer right away. During the flood scenario, 
+The water level across different dams should be taken into account while routing flood waters. Cameras can be of great help in monitoring the nearby areas of the dams by providing live footage to the base station. It can help to ensure safety while releasing water during flash floods and will be useful in determining whether people are present close to the dams. The goal of the Internet of Things technology is to link the ecosystem of sensors to the Internet and gradually increase their intelligence. The ability to operate dams will be improved more when big data, cloud computing, and WSN are integrated with the Internet of Things. Since all data processing will be done in the cloud, it will be possible to get data and send commands more quickly and reliably.
+              LITERATURE REVIEW
+1.	M. A. Salam et al proposed a design and Implementation of a Wireless Sensor Network for Dam Water Level Monitoring Using IoT in which he showed his idea of a wireless sensor network (WSN) using IoT for monitoring water level in dams by incorporating sensors to access water levels.It collects data and transfers to a cloud server , while a web-based interface allows for data visualization and analysis. 
+.
+2. "An IoT-Based System for Water Level Monitoring and Management in Dams" by H. Zhao et al. (2020)
+An IoT-based system for managing and monitoring dam water levels in real-time is presented in this research. The system consists of sensors for measuring water levels, a gateway for gathering and sending data to a cloud server, and a web application for data processing and visualization. The system demonstrated accuracy and dependability in managing and monitoring water levels during testing in a real dam.
+3.	"Development of IoT-Based Water Level Monitoring System for Dam Management" by M. R. Islam et al. (2019)
+An IoT-based water level monitoring system for dam management is presented in this study. The system consists of sensors for measuring water levels, a gateway for gathering and sending data to a cloud server, and a web application for data visualization and analysis. In a laboratory test, the system demonstrated accurate and dependable water level monitoring.
+4.	"Wireless Sensor Network-Based Water Level Monitoring and Alert System for Dam Safety" by J. Jeong et al. (2018)
+A wireless sensor network-based water level monitoring and alarm system for dam safety is presented in this research. The system consists of sensors for water level measurement, a gateway for data collection and transmission to a cloud server, and an alarm system for alerting authorities in the event of catastrophic water level situations. The system's accuracy and dependability in monitoring and notifying water levels were demonstrated during testing in a real dam.
+5.	"Design and Implementation of an IoT-Based Water Level Monitoring and Alert System for Dams" by S. K. Yadav et al. (2020)
+An IoT-based water level monitoring and alarm system for dams is presented in this research. The system consists of sensors for water level measurement, a gateway for data collection and transmission to a cloud server, and an alarm system for alerting authorities in the event of catastrophic water level situations. The system's accuracy and dependability in monitoring and notifying water levels were demonstrated during testing in R                                                    a real dam.
+6.	 Internet of Things (IoT)-Based Water Level Monitoring Systems for Flood Management        The IoT-based water level monitoring systems particularly created for flood control are examined in this research study. It looks at several sensor and communication technologies, as well as the data processing methods used in these systems. In order to successfully reduce flood risks, the assessment highlights the value of real-time monitoring, early warning systems, and data-driven decision-making.
+7.	 An analysis of IoT applications for managing water resources                                                                 This overview of IoT applications in water resource management, including water level monitoring systems, is given in this survey of the literature. It talks about how the Internet of Things may be used to gather, transmit, and analyze data for efficient water resource management and conservation. The evaluation also identifies implementation issues with IoT-based systems and makes suggestions for potential fixes.notion.
+8.	IoT-Based Water Level Monitoring Systems: A Review of Sensor Technologies and Communication Protocols
+The sensor and communication protocols used in IoT-based water level monitoring systems are the main topics of this review. The merits alongside drawbacks of several sensor types, including ultrasonic, pressure, and capacitive sensors, are discussed in detail. Additionally, it goes through various data transfer methods and how they affect system performance.
+9.	A Literature Review on Data Analytics for IoT-Based Water Management Systems
+The use of data analytics in IoT-based water management systems, including water level monitoring, is examined in this review of the literature. In order to improve data accuracy, pattern identification, and decision support, it examines how data analytics methods like machine learning, artificial intelligence, and data fusion might be used. Future directions for study in sophisticated data analytics for water management systems are also identified in the review.
+10.	Implementing IoT-Based Water Level Monitoring Systems: Challenges and Opportunities
+The emphasis of this analysis is the prospects and obstacles related to the deployment of IoT-based water level monitoring devices. It deals with concerns like sensor precision, network connectivity, energy use, data security, and scalability. The assessment emphasises the technologies' potential advantages for better water resource management, early flood detection, and effective water distribution.
+II.	METHODOLOGY
+ THIS PROJECT IS BASED ON THE FULL AUTOMATION OF THE WATER MANAGEMENT NEAR ALL THE DAMS THROUGH A CENTRAL SERVER USING IOT-LINKED CLOUD SERVICES APPLICATIONS.
+Every dam is considered a single node. In the same way, each and every node is linked to a central command.
+1).  Primarily, the dams are being installed with ultrasonic sensors on either side of the dam gate which are useful to get the real-time level of water on both sides of the gate. Dams are now facilitated with local base stations which enables the transmission of the recorded data to the central server.
+2).  To transmit data to the nearby base station, the ultrasonic sensor must be interfaced with a microcontroller. This paper represents must use far-field communication for this. 
+There must be a minimum of 1 km between the transmitter (near the sensor) and the receiver (near the base station). The local base station receives the data from both water level sensors in this manner.
+3). The base station collects data from both water sensors and transmits it over the cloud to the central command center. Each base station's data is transferred to the cloud, where the central command center may use it to assess the water level in real-time and determine whether the dam gates should remain open or closed.
+4). The task of the command center is to determine whether the dam gates need to be opened, maintained closed, or the opposite after receiving the data from each primary node. For this, a set of predetermined water levels must be created, whereby the dam's gates must be closed below a predetermined threshold water level and raised above that level. Depending on the amount of water that a dam can retain or the need for water in that specific area, these stated water levels vary from node to node. 
+5). As soon as a decision has been made on whether to open or close the gate, a command must be transmitted to the base station. As a result, the command center sends the command to the base station, which then sends the data to the gate control, which then opens or closes the gate in response to the command. 
+
+A.	Determination of the level of water
+ This paper presents water level data transmission in the initial phase using ultrasonic sensors. The ultrasonic sensors are connected to a microcontroller that uses far/near field communication to send data to a nearby base station.
+Ingredients needed: Arduino and ultrasonic sensors. 
+B.	Over Short-Range Communication
+ At this step, this paper deals with sending data locally, or to a base station, over short distances. The separation can be between a few hundred meters and one or two kilometers. Arduino is interfaced, and short-range data transmission modules such as Bluetooth or XBee are used to transfer data.
+At this time, this paper focuses on sending data over long distances of several hundred kilometers. This helps us to collect data from all nodes and send it to one base station.
+Which then reads the information and sends the order accordingly. The necessary technology has not yet been developed.
+-->  LoRaWAN is a low-power wide area network (LPWAN) designed to provide long-range connectivity for battery-powered wireless objects in local, regional or global networks. The core dimensions of the Internet of Things are fulfilled by LoRaWAN, including secure two-way communication, mobility and localization services.
+
+--> Low Power Wide Area Network (LPWAN) technology standard, also known as Narrow Band IoT (NB-IoT), is designed to enable connection between various devices and services using the cellular LTE band. Narrowband radio technology, known as NB-IoT, is designed extensively for Internet of Things (IoT) applications. The main goals of NB-IoT are indoor coverage, accessibility, extended battery life and enabling a large number of connected devices.
+Source Code:
+#include <EEPROM.h>
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(2,3,4,5,6,7);
+long duration, inches;
+int set_val,percentage;
+bool state,pump;
+void setup() {
+ lcd.begin(16, 2);
+  lcd.print("WATER LEVEL:");
+  lcd.setCursor(0, 1); 
+  lcd.print("PUMP:OFF MANUAL");
+  pinMode(8, OUTPUT);
+  pinMode(9, INPUT);
+  pinMode(10, INPUT_PULLUP);
+  pinMode(11, INPUT_PULLUP);
+  pinMode(12, OUTPUT);
+ set_val=EEPROM.read(0);
+ if(set_val>150)set_val=150;
+}
+void loop() {
+ digitalWrite(3, LOW);
+   delayMicroseconds(2);
+   digitalWrite(8, HIGH);
+   delayMicroseconds(10);
+   digitalWrite(8, LOW);
+   duration = pulseIn(9, HIGH);
+   inches = microsecondsToInches(duration);
+   
+   percentage=(set_val-inches)*100/set_val;
+   
+   lcd.setCursor(12, 0); 
+   if(percentage<0)percentage=0;
+   lcd.print(percentage);
+   lcd.print("%   ");
+   if(percentage<30&digitalRead(11))pump=1;
+   if(percentage>99)pump=0;
+   digitalWrite(12,!pump);
+   lcd.setCursor(5, 1);
+   if(pump==1)lcd.print("ON ");
+   else if(pump==0) lcd.print("OFF");
+   lcd.setCursor(9, 1);
+    if(!digitalRead(11))lcd.print("MANUAL");
+    else lcd.print("AUTO   ");
+   if(!digitalRead(10)&!state&digitalRead(11)){
+      state=1;
+      set_val=inches;
+      EEPROM.write(0, set_val);
+      }
+   if(!digitalRead(10)&!state&!digitalRead(11)){
+        state=1;
+        pump=!pump;
+   }
+ if(digitalRead(10))state=0;
+ delay(500);
+}
+long microsecondsToInches(long microseconds) {
+   return microseconds / 74 / 2;
+}
+
+
+            
+
+III.	RESULTS
+Ultrasonic sensors, an Arduino microcontroller, and short-range communication (Bluetooth modules) have all been used to create a prototype of the suggested idea. 
+Using water level sensors, the initial stage of implementation entails figuring out how much water is present. The water level sensor, which is positioned on the top of a water container, measures the separation between the container's top and the water's surface. The water level in the container has exceeded the ideal level if the distance falls below a specific point. The configuration is represented visually in the image below. 
+When Relay was ON and push button + switch button was OFF.
+ 
+When Relay was OFF and push button + switch button was OFF. 
+
+The prototype implementation of short-range controlling is complete, while long-range communication is in the works.The data on the water level is sent to the second Arduino board through Bluetooth. The figure depicts the readings received by the microcontroller. Two nodes provide data to the central command center at the same time. The central station receives the water level from both stations one after the other. If the volume increases, the level of water rises, and when it approaches the maximum capacity of the container, a signal is delivered to the servo motor.
+The second microcontroller, which controls the servo motor, reads the input data and, when the level of water rises, activates the servo motor, which is linked to the gate mechanism. 
+
+Pump ON manual, water increasing, LED glow
+ 
+Switch ON and Pump ON, LED glow
+ 
+ Pump ON and water level increasing Auto
+ 
+When the amount of water drops, the second microcontroller does not transmit any commands to the servo motor, and the gate mechanism closes. 
+Water level 100%, Pump OFF,LED OFF
+ 
+The prototype implementation of short-range controlling is complete, while long-range communication is in the works.
+IV.	 DISCUSSION
+1). The approach described above will make large-scale water level control easier. This strategy can help us tackle a variety of water-related problems. By putting up a central command center, This paper representscan reduce the number of people needed at each dam. Because this is a completely automated process, any human interaction has been avoided. As a result, the risk of errors has been minimized. 
+
+2). In an emergency, the override capacity will be granted to an authorized individual who will be able to modify the command if necessary. This strategy helps to preserve neutrality in regions where there are concerns with water distribution between two areas since the command is with the central command center and neither of the areas participating in the war can deliver the command. 
+3). This technology will be highly useful during natural catastrophes such as floods since it eliminates the need for any human control near the dam's real location. Any command necessary for gate opening or shutting may be issued from the remote center. This also decreases reaction time because the water level data near the command center is real-time and choices are made virtually instantly. 
+
+4). Because data on water levels at all dams across the country is available in one location, a timely decision on flood water routing may also be made. This contributes significantly to reducing flood-related losses. 
+
+
+V.	CONCLUSIONS
+ Water is one of the vital needs for human existence as it is our everyday necessity. Therefore, This paper represents need to manage our water resources However due to inadequate management loads and loads of water resources are being wasted. Although computerized water level monitoring systems do exist, they have been used for a variety of diverse purposes and have lots of restrictions. This study offers answers to the issue and successfully conducts tests to check water levels. This study creates a flexible, affordable, and easily adjustable system that can address our issue with water distribution between two regions and protect low-lying areas from flooding and other hazards. The IoT is one of the fastest-growing technologies and it relies on embedded systems to transmit and receive information over a specified network in real-time. Since our lab trials have been successful,  have suggested a cloud-based water level monitoring and management network. This network's versatility will allow us to control the system remotely from any location by gaining access to cloud data using a variety of devices. In case of floods, the water will be checked by an automated gate lifting system and alarm everyone prior to the danger. This might have a significant positive effect on studies pertaining to the effective management of water at dams by eliminating physical work.
+
+REFERENCES
+
+[1]	Getu B N and Attia H A 2017 Automatic water level sensor and
+controller system Int. Conf. on Electron. Devices, Syst., and Appl. pp
+1–4
+[2]	Samarth Viswanath, Marco Belcastro, John Barton, Brendan O’Flynn,
+Nicholas Holmes, Paul Dixon, ”Low-power wireless liquid monitoring
+system using ultrasonic sensors”, IJSSIS, Vol 8, NO.1, March 2015, pp
+28-44. 
+[3]	S.Sheeba Rani, S.Balakrishnan, V.Kamatchi Sundari, K.C.Ramya,IoT Based Water Level Monitoring System for Lake in a Cloud Environment, International Journal of Lakes and Rivers (IJLR), Vol.12, Issue 1, (2019), pp. 21-25. 
+[4]	J.Janet, S.Balakrishnan, S.Sheeba Rani, “IoT based lake and reservoir management system”, International Journal of Lakes and Rivers (IJLR), Vol. 12, Issue 1, (2019), pp. 21-25.
+[5]	Balakrishnan, S., Suresh Kumar, K., Ramanathan, L. et al. IoT for Health Monitoring System Based on Machine Learning
+Algorithm.Wireless Pers Commun (2021).
+https://doi.org/10.1007/s11277-021-09335-w
+[6]	S. Balakrishnan, A Quick Look at Open Source Tools and Services for IoT, Open Source For You Magazine. Vol. 7, Issue 05, pp. 37-39, February 2019. ISSN: 2456-4885.
+[7]	Asaad Ahmed Mohammed ahmed Eltaieb1, Zhang Jian Min2 .
+“Automatic Water Level Control System”, International Journal of
+Science and Research (IJSR) ISSN (Online): 2319-7064
+[8]	S. Balakrishnan, Horizontal IoT Platforms: An Overview, Open
+Source For You Magazine, Vol. 8, Issue 12, pp. 30-32, September 2020. ISSN: 2456-4885.
+[9]	En.wikipedia.org. (2017). NarrowBand IOT. [online] Available at:
+https://en.wikipedia.org/wiki/NarrowBand_IOT [Accessed 1 Dec. 2017].
+[10]	S. Balakrishnan, M. S. S. Hameed, K. Venkatesan and G. Aswin,
+"An Exploration of Robotic Process Automation in all Spans of
+Corporate Considerations," 2021 7th International Conference on Advanced Computing and Communication Systems (ICACCS),2021,pp.1881-1884,doi: 10.1109/ICACCS51430.2021.9441996.
+[11]	lora-alliance. (2017). lora-alliance. [online] Available at:
+https://www.lora-alliance.org/technology [Accessed 1 Dec. 2017]
+[12]	J. Rebekah, D. C. J. W. Wise, D. Bhavani, P. Agatha Regina and N.Muthukumaran, "Dress code Surveillance Using Deep
+learning," 2020 International Conference on Electronics and
+Sustainable Communication Systems (ICESC), Coimbatore, India, 2020, pp. 394-397.
+[13]	Suresh Kumar, K., Balakrishnan, S. & Janet, J. A cloud-based
+prototype for the monitoring and predicting of data in precision
+agriculture based on internet of everything. J Ambient Intell Human Comput 12, 8719–8730 (2021). https://doi.org/10.1007/s12652-020-02632-5.
+[14]	R. Joshua Samuel Raj, T.Sudarson Rama Perumal, N.Muthukumaran,‘Road Accident Data Analytics Using Map –                  Reduce.Concept International Journal of Innovative Technology and.Exploring Engineering, Volume. 8, Issue. 11, pp. 1032- 1037, September 2019.
+[15]	R. Ram Vishnu, V. Nobin Pal, C. Narasimma Moorthy, S.
+Balakrishnan, “Arduino Based Smart Alarm Mobile Application
+System”, Jour of Adv Research in Dynamical & Control Systems.
+Vol. , 14-Special issue, 2018, pp. 1217-1223.
+[16]	N. Muthukumaran, N. R. G. Prasath and R. Kabilan, "Driver
+Sleepiness Detection Using Deep Learning Convolution Neural
+Network Classifier," 2019 Third International conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud), Palladam, India,.2019,pp. 386-390.
+[17]	Niteen Mohod, “Usability of Internet of Things [IoT] For Dam Safety
+and Water Management”, International Journal of Research in Advent
+Technology, Vol.5, No.1, January 2017.
+[18]	A.C. Khetre, S.G. Hate, “Automatic monitoring & Reporting of water
+quality by using WSN Technology and different routing methods”,
+IJARCET Vol 2, Issue 12, Dec 2013, pp 3255- 3260.
+[19]	Amir Ali Khan, Shaden Abdel-Gawad, Haseen Khan, “A real time
+Water Quality Monitoring Network and Water Quality Indices for River Nile” , abs894_article, IWRA Congress.
+[20]	S.M.Khaled Reza, Shah Ahsanuzzaman, S.M. Mohsin Reza,
+“Microcontroller Based Automated Water Level Sensing and
+Controlling: Design and Implementation Issue”, WCECS 2010, October 20-22, 2010, pp 220-224
+[21]	George Suciu, Adela Vintea, Stefan Ciprian Arseni, Cristina Burca,
+Victor “Challenges and Solutions for Advanced Sensing of Water
+Infrastructures in Urban Environments”, 2015 IEEE SIITME , 22-25 Oct 2015, pp 349-352
+[22]	Wadekar S, Vakare V, Prajapati R, Yadav S, and Yadav V 2016
+Smart water management using IoT 5th Int. Conf. on Wireless
+Networks and Embedded Syst. (WECON) pp. 1–4
+[23]	M. Syed Shahul Hameed, Mohamed Abbas, V.Saravanakumar, S.Balakrishnan, Impact Of Internet Of Things And Artificial
+Intelligence On Teaching And Learning In A Cloud Environment, Webology (ISSN: 1735-188X), Volume 18, Number 6, pp. 367-375, 2021
+[24]	J.Janet, S.Balakrishnan, S.Sheeba Rani, “IoT based lake and reservoir
+management system”, International Journal of Lakes and Rivers
+(IJLR), Vol. 12, Issue 1, (2019), pp. 21-25.
+[25]	J.Janet, S.Balakrishnan, S.Sheeba Rani, “IOT Based Fishery
+Management System”, International Journal of Oceans and
+Oceanography, ISSN 0973-2667, Volume 13, Number 1 (2019), pp.147-152.
+[26]	S.Balakrishnan, S.Sheeba Rani, K.C.Ramya, “Design and
+Development of IoT Based Smart Aquaculture System in a Cloud
+Environment”, International Journal of Oceans and Oceanography, ISSN 0973-2667, Volume 13, Number 1 (2019), pp. 121-127.
+[27]	P. Venkateswari, E. Jebitha Steffy, N. Muthukumaran, 'License Plate cognizance by Ocular Character Perception', International Research Journal of Engineering and Technology, Vol. 5, No. 2, pp. 536-542, February 2018.
+[28]	S.Balakrishnan, J. Janet, R. Sachinkanithkar, D. Reshma,
+“Technological Innovations for Agricultural Developments Through Information Communications Technology (ICT)”, CSI
+Communications magazine, Vol. 41, issue 6, September 2017, pp.10-13.
+[29]	K.N.Sivabalan, V.Anandkumar, S.Balakrishnan, IOT Based Smart Farming for Effective Utilization of Water and Energy, International Journal of Advanced Science and Technology Vol. 29,No.7s,(2020), pp. 2496-2500.
+[30]	V. Anandkumar, Kalaiarasan T R, S.Balakrishnan, “IoT Based Soil Analysis and Irrigation System”, International Journal of Pure and Applied Mathematics, Volume 119, No. 12, 2018, pp.1127-1134..
+
+. 
+
