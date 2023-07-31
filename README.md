@@ -1,0 +1,2 @@
+# Water-Level-Management-and-Monitoring-for-Dam-using-IoT.
+This GitHub repository presents a comprehensive research project that focuses on water level management and monitoring for dams, employing the Internet of Things (IoT) technology. The project aims to provide an efficient and reliable solution to monitor the water levels in dams in real-time, ensuring better management and proactive decision-making.
